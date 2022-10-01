@@ -1,6 +1,6 @@
 if game.PlaceId == 9568982793 then
 	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-	local Window = OrionLib:MakeWindow({Name = "Da Hood Battlegrounds | Made By Lucifer,#8383", HidePremium = false, IntroText = "Welcome! For Bugs DM Lucifer,#8383", SaveConfig = falsew, ConfigFolder = "OrionTest"})
+	local Window = OrionLib:MakeWindow({Name = "Da Hood Battlegrounds | Made By AngeI#6179", HidePremium = false, IntroText = "Welcome! For Bugs DM AngeI#6179", SaveConfig = falsew, ConfigFolder = "OrionTest"})
 	
 	local Tab = Window:MakeTab({
 		Name = "Main Options",
