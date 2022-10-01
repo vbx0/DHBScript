@@ -55,13 +55,13 @@ if not game:IsLoaded() then
 	})
 	
 	Tab:AddButton({
-		Name = "Aimlock Script",
+		Name = "Aimlock Script (z)",
 		Default = false,
 		Callback = function(Value)
 			getgenv().RecurringPoint = "UpperTorso"
 getgenv().Hitbox = "UpperTorso"
 getgenv().Keybind = "z" --Can Be Changed To Any Keybind
-getgenv().AimbotStrengthAmount = 0.1111
+getgenv().AimbotStrengthAmount = 0.0995
 getgenv().PredictionAmount = 10
 getgenv().Radius = 25
 getgenv().UsePrediction = true
