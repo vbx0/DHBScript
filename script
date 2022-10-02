@@ -145,6 +145,8 @@ StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
 local chatFrame = player.PlayerGui.Chat.Frame
 chatFrame.ChatChannelParentFrame.Visible = true
 chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+  	end    
+})
 
 Tab:AddButton({
 	Name = "Inf Yield",
@@ -154,7 +156,7 @@ Tab:AddButton({
 })
 	
 Tab:AddButton({
-	Name = "Graphic Enhancher,
+	Name = "Graphic Enhancher",
 	Callback = function()
 		-- Roblox Graphics Enhancher
 local light = game.Lighting
@@ -248,5 +250,6 @@ end
   	end    
 })
 	
-	end
+ end
+  
 	OrionLib:Init()
